@@ -1,0 +1,17 @@
+  /* pages/Order_detail/Order_detail.wxss */
+.page{
+  height: 100%;
+  width: 100%;
+}
+.image{
+  width: 80px;
+  height:80px;
+} 
+.list{
+  background: rgb(236, 236, 2365);
+
+  border-width: 1px;
+}
+.counts{
+  background: rgb(240, 235, 235);
+}

@@ -1,0 +1,19 @@
+<!--pages/page/Orders.wxml-->
+
+<text class= "title">进行中的订单</text>
+
+<view class ="backgroud">
+<block wx:for="{{array}}"  wx:for-index="idx" >
+  <view data-oid='{{item.order_id}}' bindtap='ShowDetail'  class = "list">
+       
+              <view class= "left"> {{idx+1}} : {{item.order_address}}</view>
+              <view class="left">{{item.order_person}}:{{item.order_phone}}</view>
+              <view class = "left">金额:{{item.order_price}}</view>
+        
+              <view class="right">
+            <button class= "button" bindtap="ShowDetail">{{item.order_status}}</button>
+          </view>
+    </view>
+  </block>
+</view>
+

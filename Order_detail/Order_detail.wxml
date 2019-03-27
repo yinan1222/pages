@@ -1,0 +1,10 @@
+<!--pages/Order_detail/Order_detail.wxml-->
+<text class= "title">订单详情</text>
+<block wx:for="{{array}}" wx:for-index="idx">
+  <view class= "list"> 餐品: {{item.item_data.f_name_zh}} 
+  <view>数量:{{item.item_count}}   价格: {{item.item_data.f_name_price_original}}</view>
+  <image class="image" src="{{picurl}}" > </image>
+  
+  </view>
+</block>  
+<view>总价{{total_price}}</view>

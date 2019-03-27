@@ -1,0 +1,42 @@
+/* pages/page/Orders.wxss */
+.page{
+  height: 100%;
+  width: 100%
+}
+.title{
+
+  padding: 0.5cm 2.9cm;
+}
+.backgroud{
+height: 20cm;
+width:100%;
+background-color: #F2f2f2;
+
+}
+.list{
+   background: rgb(236, 236, 236);
+   margin: 3px;
+   padding: 5px;
+  height: 100px;
+   font-family: "Trebuchet MS", Verdana, sans-serif;
+   }
+.right{
+  margin-right:50px;
+  width: 100%;
+  height: 40px;
+}
+.button{
+   font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: red;
+  background-color:  rgb(202, 195, 191);
+  padding: 0.6px;
+  font-size: 24rpx;
+  height: 26px;
+  width: 80px;
+  margin-right: 15px;
+  top: 10px;
+
+ }
+ 
+ 
+  
